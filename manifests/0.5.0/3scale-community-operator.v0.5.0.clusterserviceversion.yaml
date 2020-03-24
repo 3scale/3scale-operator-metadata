@@ -42,7 +42,7 @@ spec:
   - name: mysql-57-rhel7
     value: centos/mysql-57-centos7
   - name: postgresql-10-rhel7
-    value: centos/mysql-57-centos7
+    value: centos/postgresql-10-centos7
   customresourcedefinitions:
     owned:
     - kind: APIManager
