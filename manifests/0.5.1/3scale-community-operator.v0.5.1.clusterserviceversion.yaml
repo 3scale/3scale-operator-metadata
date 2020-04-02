@@ -127,7 +127,7 @@ spec:
     * **Capabilities** Ability to define 3scale API definitions and set them into a 3scale API Management solution
 
     ### Documentation
-    Documentation can be found on our [website](https://github.com/3scale/3scale-operator/blob/2.8-stable/doc/operator-user-guide.md).
+    Documentation can be found on our [website](https://github.com/3scale/3scale-operator/blob/3scale-2.8-stable/doc/operator-user-guide.md).
 
     ### Getting help
     If you encounter any issues while using 3scale operator, you can create an issue on our [website](https://github.com/3scale/3scale-operator) for bugs, enhancements, or other requests.
@@ -137,7 +137,7 @@ spec:
 
     * Raising any issues you find using 3scale Operator
     * Fixing issues by opening [Pull Requests](https://github.com/3scale/3scale-operator/pulls)
-    * Improving [documentation](https://github.com/3scale/3scale-operator/blob/2.8-stable/doc/operator-user-guide.md)
+    * Improving [documentation](https://github.com/3scale/3scale-operator/blob/3scale-2.8-stable/doc/operator-user-guide.md)
     * Talking about 3scale Operator
 
     All bugs, tasks or enhancements are tracked as [GitHub issues](https://github.com/3scale/3scale-operator/issues).
@@ -324,7 +324,7 @@ spec:
   - name: GitHub
     url: https://github.com/3scale/3scale-operator
   - name: Documentation
-    url: https://github.com/3scale/3scale-operator/blob/2.8-stable/doc/operator-user-guide.md
+    url: https://github.com/3scale/3scale-operator/blob/3scale-2.8-stable/doc/operator-user-guide.md
   maintainers:
   - email: eastizle+3scaleoperator@redhat.com
     name: 3scale
