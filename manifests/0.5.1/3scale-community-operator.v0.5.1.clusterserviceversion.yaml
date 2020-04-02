@@ -28,13 +28,13 @@ spec:
   replaces: 3scale-community-operator.v0.4.0
   relatedImages:
   - name: APIcast
-    image: quay.io/3scale/3scale28:apicast-3scale-2.8.0-GA
+    image: quay.io/3scale/3scale28:apicast-3scale-2.8.1-GA
   - name: Apisonator
-    image: quay.io/3scale/3scale28:apisonator-3scale-2.8.0-GA
+    image: quay.io/3scale/3scale28:apisonator-3scale-2.8.1-GA
   - name: Porta
-    image: quay.io/3scale/3scale28:porta-3scale-2.8.0-GA
+    image: quay.io/3scale/3scale28:porta-3scale-2.8.1-GA
   - name: Zync
-    image: quay.io/3scale/3scale28:zync-3scale-2.8.0-GA
+    image: quay.io/3scale/3scale28:zync-3scale-2.8.1-GA
   - name: Memcached
     image: memcached:1.5
   - name: redis-32-rhel7
@@ -175,13 +175,13 @@ spec:
                 - name: OPERATOR_NAME
                   value: threescale-operator
                 - name: BACKEND_IMAGE
-                  value: "quay.io/3scale/3scale28:apisonator-3scale-2.8.0-GA"
+                  value: "quay.io/3scale/3scale28:apisonator-3scale-2.8.1-GA"
                 - name: APICAST_IMAGE
-                  value: "quay.io/3scale/3scale28:apicast-3scale-2.8.0-GA"
+                  value: "quay.io/3scale/3scale28:apicast-3scale-2.8.1-GA"
                 - name: SYSTEM_IMAGE
-                  value: "quay.io/3scale/3scale28:porta-3scale-2.8.0-GA"
+                  value: "quay.io/3scale/3scale28:porta-3scale-2.8.1-GA"
                 - name: ZYNC_IMAGE
-                  value: "quay.io/3scale/3scale28:zync-3scale-2.8.0-GA"
+                  value: "quay.io/3scale/3scale28:zync-3scale-2.8.1-GA"
                 - name: SYSTEM_MEMCACHED_IMAGE
                   value: "memcached:1.5"
                 - name: BACKEND_REDIS_IMAGE
