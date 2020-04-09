@@ -5,5 +5,5 @@ channels:
   - name: threescale-2.7
     currentCSV: 3scale-community-operator.v0.4.0
   - name: threescale-2.8
-    currentCSV: 3scale-community-operator.v0.5.0
+    currentCSV: 3scale-community-operator.v0.5.1
 defaultChannel: threescale-2.8
