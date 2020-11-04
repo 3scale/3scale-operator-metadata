@@ -391,7 +391,6 @@ spec:
         path: deployments
         x-descriptors:
         - urn:alm:descriptor:com.tectonic.ui:podStatuses
-      version: v1alpha1
     - description: Backend is the Schema for the backends API
       displayName: 3scale Backend
       kind: Backend
