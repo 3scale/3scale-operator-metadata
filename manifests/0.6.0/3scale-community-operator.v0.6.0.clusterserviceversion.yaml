@@ -493,7 +493,7 @@ spec:
                   value: centos/postgresql-10-centos7
                 - name: OC_CLI_IMAGE
                   value: quay.io/openshift/origin-cli:4.2
-                image: REPLACE_IMAGE
+                image: quay.io/3scale/3scale-operator:v0.6.0
                 name: 3scale-operator
                 resources: {}
               serviceAccountName: 3scale-operator
